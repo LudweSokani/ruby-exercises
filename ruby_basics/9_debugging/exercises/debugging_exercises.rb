@@ -50,7 +50,6 @@ end
 # First, include require 'pry-byebug' at the top of this page
 # Next insert plenty of breakpoints, and see if you can tell where things break
 # Once you find the error, fix it and get the test to pass
-
 def yell_greeting(string)
   name = string
   name = name.upcase
