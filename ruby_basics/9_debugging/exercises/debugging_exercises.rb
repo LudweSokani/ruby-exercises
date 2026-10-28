@@ -52,7 +52,8 @@ end
 # Once you find the error, fix it and get the test to pass
 def yell_greeting(string)
   name = string
+  #binding.pry
   name = name.upcase
   greeting = "WASSAP, #{name}!"
-  #binding.pry
+  p greeting
 end
